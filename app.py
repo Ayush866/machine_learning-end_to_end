@@ -2,9 +2,9 @@ from flask import render_template,Flask,request
 import numpy as np
 import pandas as pd
 from src.pipeline.predection_pipeline import CustomData,PredictPipeline
-application=Flask(__name__)
+app=Flask(__name__)
 
-app=application
+
 
 @app.route("/")
 def index():
